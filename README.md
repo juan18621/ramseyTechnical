@@ -1,8 +1,8 @@
 # RamseyStudents
 
-This project was made using .NET 7 applying repository pattern and gobal handling error middleware.
+This project was made using .NET 7 applying middleware to handle generic errors, repository pattern and base controller to apply the repository to any entity
 
-Please run the API using visual studio then go to ClientApp directory inside the project using the terminal and run ng serve -o to test the frontend
+Please run the .NET API using visual studio. Then go to ClientApp directory inside the project using the terminal and run ng serve -o to test the frontend.
 
 The frontend project was made with a modular architecture using own component libraries (no external) and using Angular best practices such as lazy loading, http interceptors and reusable components.
 
